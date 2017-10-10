@@ -21,7 +21,7 @@
         />
 
     <TextView
-        android:id="@+id/label1"
+        android:id="@+id/label1" style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
@@ -42,7 +42,7 @@
         />
 
     <TextView
-        android:id="@+id/label2"
+        android:id="@+id/label2" style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
@@ -70,7 +70,7 @@
         >
 
         <TextView
-            android:id="@+id/label3"
+            android:id="@+id/label3" style="@style/Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
@@ -92,6 +92,7 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/button" style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
